@@ -163,9 +163,11 @@ html {
 #slider {
   position: relative;
   margin-top: 46.5px;
-  padding-top: 50%;
-  background: url("/the-band/assets/img/slider/chicago.jpg") bottom center /
-    cover no-repeat;
+}
+
+#slider .slider-img {
+  height: 50%;
+  width: 100%;
 }
 
 #slider .text-content-slider {
@@ -451,6 +453,7 @@ html {
 
 .map-section img {
   width: 100%;
+  filter: grayscale(50%);
 }
 
 #footer {
