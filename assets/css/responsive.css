@@ -1,12 +1,13 @@
 /* PC */
-@media (min-width: 1240px) {
+@media (min-width: 77.5em) {
 }
 
 /* TABLET AND MOBILE*/
 
-@media (max-width: 1239px) {
+@media (max-width: 77.4375em) {
   .btn {
     padding: 16px 16px;
+    font-size: 15px;
   }
 
   .contact-content .contact-infor {
@@ -15,6 +16,7 @@
 
   .contact-form .form-control {
     padding: 15px;
+    font-size: 15px;
   }
 
   #nav .subnav a {
@@ -33,11 +35,11 @@
 }
 
 /* TABLET */
-@media (min-width: 740px) and (max-width: 1239px) {
+@media (min-width: 46.25em) and (max-width: 77.4375em) {
 }
 
 /* MOBILE */
-@media (max-width: 739px) {
+@media (max-width: 46.1875em) {
   .s-full-width,
   .s-col-full {
     width: 100% !important;
